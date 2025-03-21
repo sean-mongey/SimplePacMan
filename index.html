@@ -271,6 +271,29 @@
 
     // On initial load, show the title screen
     drawStartScreen();
+  
+    // Mobile tilt controls
+window.addEventListener("deviceorientation", function(event) {
+    let tiltLR = event.gamma; // Left-right tilt
+    let tiltFB = event.beta;  // Front-back tilt
+
+    if (tiltFB < -10) {
+        pacman.dx = 0;
+        pacman.dy = -1; // Move up
+    } else if (tiltFB > 10) {
+        pacman.dx = 0;
+        pacman.dy = 1; // Move down
+    } else if (tiltLR < -10) {
+        pacman.dx = -1;
+        pacman.dy = 0; // Move left
+    } else if (tiltLR > 10) {
+        pacman.dx = 1;
+        pacman.dy = 0; // Move right
+    }
+});
+ 
   </script>
+
+  
 </body>
 </html>
