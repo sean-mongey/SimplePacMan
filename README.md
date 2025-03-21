@@ -1,9 +1,8 @@
 # Simple Pacman
 
-<a href="https://sean-mongey.github.io/SimplePacMan/" target="_blank"># Simple Pac-Man</a>
-
 A minimalist implementation of the classic Pac-Man game using HTML, CSS, and JavaScript.
 
+<a href="https://sean-mongey.github.io/SimplePacMan/" target="_blank">Click Here to play Simple Pac-Man</a>
 ## Overview
 
 This project is a browser-based version of Pac-Man with a simple maze, basic ghost AI, and scoring. The game features:
