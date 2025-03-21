@@ -1,5 +1,7 @@
 # Simple Pacman
 
+<a href="https://sean-mongey.github.io/SimplePacMan/" target="_blank"># Simple Pac-Man</a>
+
 A minimalist implementation of the classic Pac-Man game using HTML, CSS, and JavaScript.
 
 ## Overview
